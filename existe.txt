@@ -1,0 +1,22 @@
+ana:Não está presente
+bob:sorvete sorvete chocolate amendoas flocos
+charles:milk shake pistache morango morango
+daniel:tempura sorvete banana caramelo caramelo
+edna:Não está presente
+fabiana:torta palmito tomate bolo morango
+gabriela:sorvete torta sorvete chocolate morango
+henrique:suco morango chocolate milk palmito
+irene:Não está presente
+joel:pizza queijo
+kramer:tomate pizza calabreza
+leandro:sorvete pizza tomate chocolate
+mariana:pizza pizza chocolate queijo pimenta
+nivaldo:torta pizza sorvete amendoas pistache
+orlando:chocolate
+paula:chocolate chocolate
+reinaldo:queijo queijo queijo
+silvia:torta suco torta amendoas
+tatiana:Não está presente
+ulisses:milk shake pistache
+vanessa:Não está presente
+wesley:Não está presente
