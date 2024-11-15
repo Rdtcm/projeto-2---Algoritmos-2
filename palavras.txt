@@ -1,7 +1,7 @@
 alho
-amendoas 
-banana 
-bife 
+amendoas
+banana
+bife
 bolo
 brigadeiro
 calabreza
@@ -9,3 +9,16 @@ caramelo
 chocolate
 cobertura
 flocos
+milk
+morango
+palmito
+pimenta
+pistache
+pizza
+queijo
+shake
+sorvete
+suco
+tempura
+tomate
+torta
