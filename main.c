@@ -15,7 +15,7 @@
 #define MAXIMO_COMBINACOES 8308824
 #define TAMANHO_PALAVRAS 58
 
-int Base64Encode(const unsigned char* buffer, size_t length, char** b64text) { //Encodes a binary safe base 64 string
+int Base64Encode(const unsigned char* buffer, size_t length, char** b64text) { 
 	BIO *bio, *b64;
 	BUF_MEM *bufferPtr;
 
@@ -23,7 +23,7 @@ int Base64Encode(const unsigned char* buffer, size_t length, char** b64text) { /
 	bio = BIO_new(BIO_s_mem());
 	bio = BIO_push(b64, bio);
 
-	BIO_set_flags(bio, BIO_FLAGS_BASE64_NO_NL); //Ignore newlines - write everything in one line
+	BIO_set_flags(bio, BIO_FLAGS_BASE64_NO_NL); 
 	BIO_write(bio, buffer, length);
 	BIO_flush(bio);
 	BIO_get_mem_ptr(bio, &bufferPtr);
@@ -36,7 +36,7 @@ int Base64Encode(const unsigned char* buffer, size_t length, char** b64text) { /
     fprintf(stderr, "Memory allocation failed during Base64 encoding\n");
     return 1;
 }
-	return (0); //success
+	return (0); 
 }
 
 char* ler_proxima_palavra(FILE *pont_dados) { //pega uma palavra do arquivo 
